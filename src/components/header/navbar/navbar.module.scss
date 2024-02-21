@@ -1,0 +1,21 @@
+.navbar {
+
+    ul {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: end;
+        align-items: center;
+        gap: 30px;
+
+        li {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+
+.active {
+    text-decoration: underline;
+}
