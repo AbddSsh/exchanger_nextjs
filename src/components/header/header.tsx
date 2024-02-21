@@ -3,7 +3,7 @@
 import { Navbar } from "./navbar";
 import styles from "./header.module.scss";
 import Link from "next/link";
-import { paths } from "@/routing";
+import { paths } from "@/shared/routing";
 import { useEffect, useState } from "react";
 
 export const Header = () => {

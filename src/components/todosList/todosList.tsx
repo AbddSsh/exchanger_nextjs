@@ -1,4 +1,4 @@
-import { Todo } from "@/models/Todo";
+import { Todo } from "@/shared/models/Todo";
 import styles from "./todosList.module.scss";
 import { FC } from "react";
 import { TodoCard } from "../todoCard";

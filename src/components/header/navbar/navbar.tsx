@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styles from "./navbar.module.scss";
-import { paths } from "@/routing";
+import { paths } from "@/shared/routing";
 import { usePathname } from "next/navigation";
 
 export const Navbar = () => {

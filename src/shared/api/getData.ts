@@ -1,4 +1,4 @@
-import { Todo } from "@/models/Todo";
+import { Todo } from "@/shared/models/Todo";
 
 export const getTodos = async (): Promise<Todo[]> => {
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/todos`);

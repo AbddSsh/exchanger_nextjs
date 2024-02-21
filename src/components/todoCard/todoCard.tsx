@@ -1,5 +1,5 @@
-import { Todo } from "@/models/Todo";
-import { paths } from "@/routing";
+import { Todo } from "@/shared/models/Todo";
+import { paths } from "@/shared/routing";
 import Link from "next/link";
 import { FC } from "react";
 import styles from "./todoCard.module.scss";

@@ -1,5 +1,5 @@
 import { TodosList } from "@/components/todosList";
-import { getTodos } from "@/services/getData";
+import { getTodos } from "@/shared/api/getData";
 
 export default async function TodosPage() {
   const todos = await getTodos();

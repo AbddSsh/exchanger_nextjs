@@ -1,4 +1,4 @@
-import { getTodo } from "@/services/getData";
+import { getTodo } from "@/shared/api/getData";
 import { Metadata, ResolvingMetadata } from "next";
 
 interface TodoPageProps {
